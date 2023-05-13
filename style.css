@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.parent1{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    height: 100vh;
+}
+
+.heading1{
+    background-color: transparent;
+    color: aliceblue;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading1 h1{
+    background-color: transparent;
+}
+
+.heading1 .logo{
+    background-color: transparent;
+}
+
+.inpbar{
+    background-color: transparent;
+}
+
+.todobtns{
+    background-color: transparent;
+    display: flex;
+    justify-content:center;
+}
+
+.todobtns button{
+    margin: 10px;
+}
